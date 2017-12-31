@@ -14,7 +14,7 @@ Vue.use(Notifications)
 Vue.use(FBSignInButton)
 
 Vue.config.productionTip = false
-axios.defaults.baseURL = 'http://35.187.245.153/api'
+axios.defaults.baseURL = 'http://apibucket.sabikaorganizer.com:3000/api'
 // axios.defaults.baseURL = 'http://localhost:3000/api'
 axios.defaults.headers.common['authorization'] = localStorage.getItem('token')
 
